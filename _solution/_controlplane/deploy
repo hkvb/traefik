@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+selectedNode="${@: -1}"
+
+executionplane-info "EXECUTING CONTROLPLANE DEPLOY"
+
+.solution deploy . $selectedNode
+
+.solution run boot . $selectedNode
+
+.solution run start . $selectedNode
