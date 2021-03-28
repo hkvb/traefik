@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 selectedNode="${@: -1}"
 
-executionplane-info "EXECUTING CONTROLPLANE DEPLOY"
+executionplane-info "EXECUTING INFOMETIS DEPLOY"
 
 .solution deploy . $selectedNode
 

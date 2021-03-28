@@ -7,7 +7,7 @@ COPY ./ /vcw/repo/
 LABEL co.vcweb.schema-version="1.0" \
       co.vcweb.label="hkvb/traefik Library" \
       co.vcweb.description="Traefik based image library for core vcwebco implementation." \
-      co.vcweb.realm="vcwc" \
+      co.vcweb.realm="hkvb" \
       co.vcweb.library="traefik" \
       co.vcweb.image="traefik" \
       co.vcweb.flavor="traefik" \

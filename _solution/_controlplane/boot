@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-executionplane-info "EXECUTING CONTROLPLANE BOOT"
+executionplane-info "EXECUTING INFOMETIS BOOT"
 
 # implementation can be overridden as required by the solution
 # the default implementation executes on all components from the top component down

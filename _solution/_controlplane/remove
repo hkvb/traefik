@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 selectedNode="${@: -1}"
 
-executionplane-info "EXECUTING CONTROLPLANE REMOVE"
+executionplane-info "EXECUTING INFOMETIS REMOVE"
 
 .solution run stop . $selectedNode
 

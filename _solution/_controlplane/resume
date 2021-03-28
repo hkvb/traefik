@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-executionplane-info "EXECUTING CONTROLPLANE RESUME"
+executionplane-info "EXECUTING INFOMETIS RESUME"
 
 # implementation can be overridden as required by the solution
 # the default implementation executes on all components from the top component down
