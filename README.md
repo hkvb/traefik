@@ -4,7 +4,7 @@ The Traefik library.
 
 ## hkvb/traefik
 
-It implements service, package, application and solution.
+It implements the stack and a simple module and solution.
 
 ## Version
 

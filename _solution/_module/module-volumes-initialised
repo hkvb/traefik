@@ -1,3 +1,1 @@
-metrics_monitor_heartbeat_config:/vcw/pwd
-metrics_monitor_heartbeat_monitors_volume:/usr/share/heartbeat/monitors.d
-traefik_traefik_config_volume:/etc/traefik
+traefik_config_volume:/etc/traefik

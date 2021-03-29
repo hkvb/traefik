@@ -1,0 +1,19 @@
+## traefik.yml
+entrypoints:
+  infometis:
+    address: ":${CONFIGURATION_MODULE_TRAEFIK_GATEWAY_PORT}"
+  traefik:
+    address: ":${CONFIGURATION_MODULE_TRAEFIK_DASHBOARD_PORT}"
+
+# Docker configuration backend
+providers:
+  docker:
+    defaultRule: "Host(`{{ trimPrefix `/` .Name }}.docker.localhost`)"
+    watch: true
+    swarmMode: true
+    exposedByDefault: false
+    network: ${VCW_STACK_GLOBAL_NETWORKGLOBAL}_overlay
+
+# API and dashboard configuration
+api:
+  insecure: true
