@@ -11,5 +11,5 @@
 executionplane --silent docker volume create hkvb_traefik__traefik_config_volume
 	
 
-executionplane --silent docker run -v vcw_infometis_repos:/source -v hkvb_traefik__traefik_config_volume:/etc/traefik ${VCW_REGISTRY}hkvb/infometis console cmd cp -r /source/hkvb/traefik/_solution/_configuration/volumes/traefik_config_volume/* /etc/traefik
+executionplane --silent docker run -v vcw_infometis_repos:/source -v hkvb_traefik__traefik_config_volume:/etc/traefik ${VCW_REGISTRY}hkvb/infometis console cmd cp -r /source/hkvb/traefik/./_solution/_configuration/volumes/traefik_config_volume/* /etc/traefik
 

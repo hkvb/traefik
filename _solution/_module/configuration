@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-             # START MODULE CONFIGURATION
+ # START MODULE CONFIGURATION
 DOLLAR='$'
 export VCW_MODULE_PACKAGES="\
 traefik:hkvb/traefik"
